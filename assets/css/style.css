@@ -1,0 +1,84 @@
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 77%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .container {
+        max-width: 77%;
+    }
+
+    .navbar {
+        margin-bottom: 1rem;
+    }
+
+    header div img {
+        border-top: 2px solid black;
+        padding: 1rem;
+    }
+
+    header.container .row h1 {
+        padding-bottom: 0.5rem;
+    }
+
+    header.container .wrapper-botones {
+        padding-bottom: 3rem;
+    }
+
+    header.container .wrapper-botones .btn {
+        font-size: 0.8rem;
+        max-width: 47%;
+        padding: 0.5rem;
+    }
+
+    header.container #enviarCorreo {
+        margin-right: 0.7rem;
+    }
+
+    footer button {
+        width: 100%;
+    }
+
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    font-family: "Lobster", cursive;
+    font-size: 2.3125rem;
+}
+
+#carouselExampleIndicators {
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -0.8rem;
+}
+
+#desliza button {
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #dc3545;
+}
+
+footer span {
+    font-family: "Lobster", cursive;
+}
+
+footer p:nth-child(2) {
+    font-size: 1.2rem;
+}
